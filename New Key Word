@@ -1,0 +1,11 @@
+package com.test.opps;
+// different ways to create object 
+public class NewKeyWordExmp {
+  String name="Preeti Tripathi";
+  public static void main(String[] args) {
+	  
+	  NewKeyWordExmp ex= new NewKeyWordExmp();
+	  System.out.println(ex.name);
+	  
+}
+}
