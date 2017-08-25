@@ -1,0 +1,21 @@
+package com.test.collection;
+
+public class Cat {
+	 String name;
+	 String color;
+	 public Cat(String name, String color){
+		 this.name= name;
+		 this.color= color;
+		 
+	 }
+	 void display(){
+		 System.out.println("name of the cat >>>>" + name.toString() + "color >>> " +color.toString());
+	 }
+	 
+	 public static void main(String[] args) {
+		 Cat c= new Cat("pussi", "balck");
+		 c.display();
+	}
+	
+
+}
